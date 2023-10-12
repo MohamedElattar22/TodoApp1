@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryVariant">@color/lightSecondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lightPrimary</item>
+        <item name="colorOnSurfaceVariant">#5e5e5e</item>
+        <item name="colorSecondaryVariant">@color/lightSecondary</item>
+        <item name="colorOnSecondaryContainer">@color/lightPrimary</item>
+        <item name="colorOnSurface">@color/lightPrimary</item>
+
+
+        <item name="android:statusBarColor">@color/lightPrimary</item>
+
+    </style>
+
+    <style name="Theme.TodoApp" parent="Base.Theme.TodoApp" />
+</resources>

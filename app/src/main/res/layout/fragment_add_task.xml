@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Add Task"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TaskNameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Task Name"
+        app:boxStrokeColor="@color/lightPrimary"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TaskTitle"
+            android:layout_width="match_parent"
+            style="@style/ThemeOverlay.Material3.TextInputEditText"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TaskDescriptionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeOverlay.Material3.TextInputEditText"
+        android:backgroundTint="@color/white"
+        android:hint="Task Details"
+        app:boxStrokeColor="@color/lightPrimary"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TaskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/DateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeOverlay.Material3.TextInputEditText"
+        android:backgroundTint="@color/white"
+        android:hint="Task Details"
+        app:boxStrokeColor="@color/lightPrimary"
+        app:errorEnabled="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:hint="Select Task Date"
+            android:id="@+id/TaskDate"
+            android:textSize="18sp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/addTaskBtn"
+        android:text="Add Task"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/lightSecondary"
+        android:paddingVertical="18dp"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>

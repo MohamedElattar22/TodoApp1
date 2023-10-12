@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/baseline_list_24"
+        android:id="@+id/taskFragment"
+        android:title="@string/tasks"
+        android:enabled="true"
+       android:checked="true"
+        >nt
+
+    </item>
+    <item android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/SettingFragment"
+        android:iconTint="@color/lightPrimary"
+        android:title="@string/setting"
+        >
+
+    </item>
+
+</menu>
